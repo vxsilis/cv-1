@@ -1,6 +1,15 @@
 ---
 #Personal details
-name: Friedrich Nietzsche
+name: Vasileios Gavriilidis
+birthdate: December of 2000
+location: Ptolemaida
+email: vasilis.gvr@gmail.com
+education:
+	- Geniko Lykeio Ptolemaidas, 2017-2018
+	- Ionian University, Department of Informatics, 2018 til now
+hobbies:
+	- Music Production
+	- Photography
 urls:
-        - en.wikipedia.org/wiki/Friedrich_Nietzsche
-        - twitter.com/tinynietzshce
+        - https://open.spotify.com/artist/6aqg3Q1lbUj8yko9ta4c0b
+        - biglink.to/bllyz
