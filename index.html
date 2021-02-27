@@ -5,17 +5,35 @@ layout: default
 <html>
 	<head>
 		<meta charset="utf-8">
-		<title>{{site.data.details.name}}'s Home</title>
+		<title>{{site.data.details.name}}Vasilis CV</title>
 	</head>
 	<body>
-		<h1>Hello World, this is the {{site.data.details.name}}!</h1>
-		<p>Reach me at: 
+		<h1>Personal Info</h1>
+		<p>Name:{{site.data.details.name}}</p>
+		<p>Birth Date:{{site.data.details.date}}</p>
+		<p>Location:{{site.data.details.location}}</p>
+		<p>Email:<a href="mailto:vasilis.gvr@gmail.com">vasilis.gvr@gmail.com</a></p>
+
+		<h2>Education</h2>
+		<ul>
+		 {% for edu in site.data.details.education %}
+		   <li>{{edu}}</li>
+		 {% endfor %}
+		</ul>
+		
+		<h3>Hobbies</h3>
+		<ul>
+		 {% for hb in site.data.details.hobbies %}
+		   <li>{{hb}}</li>
+		 {% endfor %}
+		</ul>
+
+		<p>You can listen to it here: 
 		<ul>
 		 {% for url in site.data.details.urls %}
 		  <li><a href="http://{{url}}">{{url}}</a></li>
 		 {% endfor %}
 		</ul>
 		</p>
-		<p>testakiiiiiii</p>
 	</body>
 </html>
