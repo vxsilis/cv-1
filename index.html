@@ -8,6 +8,7 @@ layout: default
 		<title>Vasilis CV</title>
 	</head>
 	<body>
+		<a href="pdf/cv.pdf" style="float:right">Get PDF </a>
 		<h1>Personal Info</h1>
 		<p>Full Name: {{site.data.details.name}}</p>
 		<p>Birth Date: {{site.data.details.birthdate}}</p>
@@ -21,7 +22,7 @@ layout: default
 		 {% endfor %}
 		</ul>
 		
-		<h3>Hobbies</h3>
+		<h3>Hobbies/Interests</h3>
 		<ul>
 		 {% for hb in site.data.details.hobbies %}
 		   <li>{{hb}}</li>
